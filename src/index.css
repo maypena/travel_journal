@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
@@ -11,6 +12,62 @@ html, body {
 
 .header-h1 {
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.entry-card {
+    display: flex;
+    align-items: center;
+    background-color: rgb(153, 156, 248);
+}
+
+.entry-image {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+.entry-title {
+    margin-top: 10px;
+}
+
+.entry-photo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.entry-avatar {
+    width: 15px;
+    margin-right: 4px;
+}
+
+.entry-country {
+    font-size: 0.7rem;
+    margin-right: 12px;
+}
+
+.entry-link {
+    color: grey;
+    text-decoration: underline;
+    font-size: 0.7rem;
+}
+
+.entry-city {
+    font-size: 1.0rem;
+}
+
+.entry-date {
+    font-weight: bold;
+}
+
+.entry-content {
+   line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
