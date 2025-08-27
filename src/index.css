@@ -1,3 +1,16 @@
 html, body {
     margin: 0;
 }
+
+.header {
+    background-color: #61a3ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header-h1 {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+}
