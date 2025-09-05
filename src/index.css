@@ -18,7 +18,7 @@ html, body {
 .entry-card {
     display: flex;
     align-items: center;
-    background-color: rgb(153, 156, 248);
+    background-color: rgb(249, 249, 250);
 }
 
 .entry-image {
@@ -47,6 +47,7 @@ html, body {
 .entry-country {
     font-size: 0.7rem;
     margin-right: 12px;
+    text-transform: uppercase;
 }
 
 .entry-link {
