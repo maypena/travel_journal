@@ -18,7 +18,6 @@ html, body {
 .entry-card {
     display: flex;
     align-items: center;
-    background-color: rgb(249, 249, 250);
 }
 
 .entry-image {
